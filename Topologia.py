@@ -69,5 +69,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
- topos = {'mytopology': (lambda: MyTopology() ) }
+
+topos = {'mytopology': (lambda: MyTopology() ) }
