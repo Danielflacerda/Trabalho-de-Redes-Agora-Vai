@@ -21,15 +21,15 @@ class MyTopology(Topo):
         #Adiciona hosts do 1 ao 9 na topologia.
         #Criando hosts e designando os ips, seguindo o padrão apresentado em sala por Lucas
         #O host1 sera o servidor para sincronizar o relogio
-        self.addHost('host1', ip='10.0.0.101/24')
-        self.addHost('host2', ip='10.0.0.102/24')
-        self.addHost('host3', ip='10.0.0.103/24')
-        self.addHost('host4', ip='10.0.1.101/24')
-        self.addHost('host5', ip='10.0.1.102/24')
-        self.addHost('host6', ip='10.0.1.103/24')
-        self.addHost('host7', ip='10.0.2.101/24')
-        self.addHost('host8', ip='10.0.2.102/24')
-        self.addHost('host9', ip='10.0.2.103/24')
+        self.addHost('host1', ip='10.0.1.1/24')
+        self.addHost('host2', ip='10.0.1.2/24')
+        self.addHost('host3', ip='10.0.1.3/24')
+        self.addHost('host7', ip='10.0.2.1/24')
+        self.addHost('host8', ip='10.0.2.2/24')
+        self.addHost('host9', ip='10.0.2.3/24')
+        self.addHost('host4', ip='10.0.3.1/24')
+        self.addHost('host5', ip='10.0.3.2/24')
+        self.addHost('host6', ip='10.0.3.3/24')
 
         #Adicionando links dos switchs
         self.addLink('switch1', 'switch2')
